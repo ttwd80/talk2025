@@ -1,3 +1,4 @@
+# Topic 2 - Code coverage can being helpful
 def water(celcius):
     if celcius < 0:
         return "ice"
