@@ -5,5 +5,5 @@ def test_account():
     seller = Account(100)
     buyer = Account(100)
     buyer.transfer(50, seller)
-    assert seller.balance == 50
-    assert buyer.balance == 150
+    assert seller.balance == 150
+    assert buyer.balance == 50
