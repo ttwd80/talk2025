@@ -1,6 +1,5 @@
 import pytest
-from topic2.good.simple import water
-
+from topic2.example1.good.liquid import water
 
 def test_water():
     assert water(-5) == "ice"
