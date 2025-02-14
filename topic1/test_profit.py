@@ -1,5 +1,5 @@
 import pytest
-from topic1.good.profit import profit
+from topic1.profit import profit
 
 
 def test_profit():
